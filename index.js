@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to CICD Demo-App...!!!')
+  res.send('Welcome to Aexonic...!!!')
 })
 
 app.get('/status', (req, res) => {
